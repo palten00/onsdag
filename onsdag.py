@@ -1,3 +1,4 @@
+
 import random #importerar funktionen random
 meny = 0 # ger meny ett värde
 
