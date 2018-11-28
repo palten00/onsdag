@@ -1,10 +1,10 @@
-import random 
-meny = 0
+import random #importerar funktionen random
+meny = 0 # ger meny ett värde
 
 
-while meny != 2:
-    print("tryck på 1 för att slå tärningen")
-    print("tryck på 2 för att avsluta")
+while meny != 2: # så länge meny inte är 2 så loopas den
+    print("tryck på 1 för att slå tärningen") # skriver ut i konsolen
+    print("tryck på 2 för att avsluta") #skriver ut i konsolen
     
     try:
         meny = int(input("välj en siffra för att fortsätta "))
